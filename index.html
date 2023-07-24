@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+
+    <!-- CSS Link -->
+    <link href="./style.css" rel="stylesheet">
+
+    <!-- BootStrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-3 ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-end">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"></path>
+              </svg>EntertainmentFinder</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Books</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Shows</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <hr>
+    <h2 style="text-align: left;"> Movies </h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://tinyurl.com/y55fjb9o" class="card-img-top" alt="2001-A-Space-Odyssey">
+            <div class="card-body">
+              <h5 class="card-title">2001: A Space Odyssey</h5>
+              <p class="card-text">Stanley Kubrick's "2001: A Space Odyssey" is a groundbreaking sci-fi film with mesmerizing visuals, enigmatic narrative, 
+                and thought-provoking themes on evolution and humanity, making it an enduring cinematic masterpiece.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <a href="https://www.primevideo.com/dp/amzn1.dv.gti.5319ae23-9e68-462c-bfba-2dfe800fabf6?autoplay=0&ref_=atv_cf_strg_wb"> Watch on Amazon Prime</a>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media.timeout.com/images/105455970/1024/768/image.jpg" class="card-img-top" alt="Godfather">
+            <div class="card-body">
+              <h5 class="card-title">The Godfather</h5>
+              <p class="card-text">"The Godfather" is a classic crime film by Francis Ford Coppola, showcasing organized crime in America. It explores loyalty, family, and power, 
+                with masterful direction and timeless themes, making it a cinematic masterpiece and cultural phenomenon.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <a href="https://www.netflix.com/watch/60011152?source=35"> Watch on NetFlix</a>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://cdn.britannica.com/50/59650-050-EEBB1C99/Orson-Welles-Citizen-Kane.jpg" class="card-img-top" alt="citizen-kane">
+            <div class="card-body">
+              <h5 class="card-title">Citizen Kane</h5>
+              <p class="card-text"> Orson Welles' groundbreaking film, Citizen Kane, explores the complex life of Charles Foster Kane, inspired by real-life media moguls. It revolutionized 
+                storytelling techniques and explores power, identity, and ambition's consequences.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <a href="https://www.primevideo.com/dp/amzn1.dv.gti.b666c8f7-7602-496a-83ae-0472b844a94a?autoplay=0&ref_=atv_cf_strg_wb"> Watch on Amazon Prime </a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="space"></div>
+
+
+    <hr>
+    <h2 style="text-align: left;"> Books </h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://tinyurl.com/22pyj4z5" class="card-img-top" alt="Anna-Karenina">
+            <div class="card-body">
+              <h5 class="card-title"> Anna Karenina </h5>
+              <p class="card-text">Anna Karenina, a complex character in 19th-century Russia, navigates societal expectations, capturing readers' hearts with her passionate nature. Tolstoy's masterful 
+                portrayal captures her inner turmoil, exploring love, morality, and societal consequences.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <a href="https://books.google.com/books/download/Anna_Karenina.pdf?id=9HtHAQAAMAAJ&output=pdf"> Read for Free </a>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://cdn2.penguin.com.au/covers/original/9781784752637.jpg"  class="card-img-top" alt="To-Kill-a-Mockingbird">
+            <div class="card-body">
+              <h5 class="card-title">To Kill a Mockingbird</h5>
+              <p class="card-text"> Harper Lee's "To Kill a Mockingbird" is a timeless American classic that explores racial injustice and moral courage. Through Scout Finch, the novel exposes prejudices in a small Southern town, emphasizing 
+                empathy, tolerance, and standing up for what's right.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <a href="https://amazon.in/dp/B07BJZGGT1?ref=KC_GS_GB_IN"> Read on Kindle </a>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="the-great-gatsby">
+            <div class="card-body">
+              <h5 class="card-title">The Great Gatsby</h5>
+              <p class="card-text"> F. Scott Fitzgerald's "The Great Gatsby" is a timeless literary masterpiece, capturing the decadence and disillusionment of 1920s America, 
+                featuring Jay Gatsby's quest for love and acceptance.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <a href="https://amazon.in/dp/B08T1CMG6D?ref=KC_GS_GB_IN"> Read on Kindle </a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="space"></div>
+
+
+      <hr>
+      <h2 style="text-align: left;"> Shows </h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://tinyurl.com/289fcywt" class="card-img-top" alt="planet-earth-ii">
+              <div class="card-body">
+                <h5 class="card-title"> Planet Earth: II </h5>
+                <p class="card-text">"Planet Earth II," narrated by Sir David Attenborough, is a stunning nature documentary series that takes viewers on a breathtaking journey across the planet. It showcases the diverse ecosystems and wildlife, 
+                    showcasing the beauty, resilience, and interconnectedness of nature, leaving audiences captivated and inspired.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <a href="https://www.primevideo.com/dp/amzn1.dv.gti.c2909819-dcc4-46ad-bf04-30ebe66a8bba?autoplay=0&ref_=atv_cf_strg_wb"> Watch on Amazon Prime </a>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdq0vuCeWF7fBJ7Dqc3kAzptsczMi_-1_ZXA&usqp=CAU"  class="card-img-top" alt="breaking-bad">
+              <div class="card-body">
+                <h5 class="card-title">Breaking Bad</h5>
+                <p class="card-text"> "Breaking Bad" is an Emmy-winning television series that follows a high school chemistry teacher who becomes a methamphetamine manufacturer. It explores themes of desperation, morality, and consequences of choices, earning it a place in television history.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <a href="https://www.netflix.com/watch/70143836?source=35"> Watch on NetFlix</a>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="band-of-brothers">
+              <div class="card-body">
+                <h5 class="card-title">Band of Brothers </h5>
+                <p class="card-text"> "Band of Brothers" is a miniseries by Steven Spielberg and Tom Hanks, focusing on the real-life experiences of Easy Company, a U.S. Army airborne unit during World War II. The series showcases camaraderie, sacrifice, and heroism, showcasing the resilience and bravery of the soldiers.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <a href="https://www.hbo.com/band-of-brothers"> Watch on HBO </a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
